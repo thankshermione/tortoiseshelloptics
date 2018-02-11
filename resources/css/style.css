@@ -1,7 +1,9 @@
 
 	/* Universal Styles */
 
-html {
+html,
+.about p,
+.serviceblock h3 {
 	font-size: 18px;
 	line-height: 1.4;
 }
@@ -114,7 +116,6 @@ main .container {
 
  	.serviceblock h3 {
  		text-align: center;
-
  	}
 
  	.paper {
