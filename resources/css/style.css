@@ -29,15 +29,25 @@ header .container,
 	padding-right: 1rem;
 }
 
+.logo {
+ 	display: flex;
+ 	align-items: center;
+}
+
+	/* Site Container */
+
 .container {
 	width: 960px;
 	margin: 0 auto;
 }
 
-.logo {
- 	display: flex;
- 	align-items: center;
- }
+		/* Media Queries */
+
+@media only screen and (max-width: 1024px) {
+	.container {
+		width: 100%;
+	}
+}
 
  	/* Header */
 
@@ -48,6 +58,14 @@ header {
  	background-size: cover;
  	height: 30rem;
  }
+
+ 		/* Media Queries */
+
+@media only screen and (max-width: 1024px) {
+	header {
+		height: 22rem;
+	}
+}
 
  		/* Logo and Site Nav */
 
@@ -65,6 +83,14 @@ header {
 
 	nav span {
 		padding-left: 2rem;
+	}
+
+		/* Media Queries */
+
+	@media only screen and (max-width: 1024px) {
+		header .container {
+			margin-top: 0;
+		}
 	}
 
  		/* Banner Box */
