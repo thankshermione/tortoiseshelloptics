@@ -50,6 +50,7 @@ header .container,
 	 	background-color: cadetblue;
 	 	padding: 1rem 2rem;
 	 	margin-top: 1rem;
+	 	width: 888px;
 	 }
 
 	 .logo {
@@ -61,7 +62,7 @@ header .container,
 		padding-left: 2rem;
 	 }
 
- 	 /* Banner Box */
+ 		/* Banner Box */
 
 	.bannerbox {
  		line-height: 1.2;
@@ -79,3 +80,49 @@ header .container,
  		align-self: center;
  		margin-left: 2rem;
  	}
+
+ 	/* Main Section */
+
+main .container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 3rem;
+	margin-bottom: 5rem;
+}
+
+ 		/* Services Icons */
+
+ 	.services {
+ 		display: flex;
+ 		margin-bottom: 3rem;
+ 		align-self: center;
+ 	}
+
+ 	.serviceblock {
+ 		display: flex;
+ 		height: 8rem;
+ 		margin-left: 3rem;
+ 		margin-right: 3rem;
+ 		align-items: center;
+ 		justify-content: space-between;
+ 		flex-direction: column;
+ 		width: 5rem;
+ 	}
+
+ 	.serviceblock h3 {
+ 		text-align: center;
+
+ 	}
+
+ 	.paper {
+ 		width: 3.5rem;
+ 	}
+
+ 	.otherimage {
+ 		width: 5rem;
+ 	}
+
+ 		/* About Blocks */
+
+ 	/* Footer */
+
