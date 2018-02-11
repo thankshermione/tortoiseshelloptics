@@ -10,13 +10,14 @@ body {
 	font-family: Helvetica, sans-serif;
 }
 
-header,
+header .container,
 .about h2 {
  	font-size: 1rem;
+ 	color: white;
  }
 
  .about h2,
- h1 {
+ .bannerbox {
   	font-weight: bold;
  }
 
@@ -32,22 +33,49 @@ header,
 
  	/* Header */
 
- header .container {
+ header {
  	display: flex;
- 	justify-content: space-between;
- 	align-items: center;
- 	background-color: cadetblue;
- 	position: relative;
- 	top: 1rem;
- 	padding: 1rem 2rem;
- 	color: white;
+ 	flex-direction: column;
+ 	background: url("../images/glasses-bg.png") center no-repeat;
+ 	background-size: cover;
+ 	height: 30rem;
  }
 
- .logo {
- 	display: flex;
- 	align-items: center;
- }
+ 		/* Logo and Site Nav */
 
-nav span {
-	padding-left: 2rem;
- }
+	 header .container {
+	 	display: flex;
+	 	justify-content: space-between;
+	 	align-items: center;
+	 	background-color: cadetblue;
+	 	padding: 1rem 2rem;
+	 	margin-top: 1rem;
+	 }
+
+	 .logo {
+	 	display: flex;
+	 	align-items: center;
+	 }
+
+	nav span {
+		padding-left: 2rem;
+	 }
+
+ 	 /* Banner Box */
+
+	.bannerbox {
+ 		line-height: 1.2;
+ 		font-size: 2rem;
+ 		padding: 1.5rem 5rem;
+ 		background-color: white;
+ 		width: 24rem;
+ 	}
+
+ 	.bannerlayout {
+ 		margin-top: 10rem;
+ 		width: 1032px;
+ 		display: flex;
+ 		justify-content: flex-end;
+ 		align-self: center;
+ 		margin-left: 2rem;
+ 	}
