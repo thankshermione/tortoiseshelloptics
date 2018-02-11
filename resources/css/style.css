@@ -14,26 +14,31 @@ header .container,
 .about h2 {
  	font-size: 1rem;
  	color: white;
- }
+}
 
- .about h2,
- .bannerbox {
-  	font-weight: bold;
- }
+.about h2,
+.bannerbox {
+	font-weight: bold;
+}
 
- .logo img {
- 	height: 1.5rem;
- 	padding-right: 1rem;
- }
+.logo img {
+	height: 1.5rem;
+	padding-right: 1rem;
+}
 
- .container {
- 	width: 960px;
- 	margin: 0 auto;
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.logo {
+ 	display: flex;
+ 	align-items: center;
  }
 
  	/* Header */
 
- header {
+header {
  	display: flex;
  	flex-direction: column;
  	background: url("../images/glasses-bg.png") center no-repeat;
@@ -43,24 +48,22 @@ header .container,
 
  		/* Logo and Site Nav */
 
-	 header .container {
+ 	header .container {
 	 	display: flex;
 	 	justify-content: space-between;
 	 	align-items: center;
 	 	background-color: cadetblue;
-	 	padding: 1rem 2rem;
 	 	margin-top: 1rem;
-	 	width: 888px;
-	 }
-
-	 .logo {
-	 	display: flex;
-	 	align-items: center;
-	 }
+ 	}
+	 
+	header .logo,
+	nav {
+		padding: 1rem 2rem;
+	}
 
 	nav span {
 		padding-left: 2rem;
-	 }
+	}
 
  		/* Banner Box */
 
@@ -126,3 +129,12 @@ main .container {
 
  	/* Footer */
 
+footer .container {
+	display: flex;
+	align-items: center;
+	background-color: azure;
+}
+
+footer .logo {
+	padding: 4rem 0 4rem 4rem;
+}
