@@ -101,16 +101,23 @@ header {
  		padding: 1.5rem 5rem;
  		background-color: white;
  		width: 24rem;
+ 		margin-top: 10rem;
+ 		align-self: flex-end;
+ 		margin-right: 5rem;
  	}
 
- 	.bannerlayout {
- 		margin-top: 10rem;
- 		width: 1032px;
- 		display: flex;
- 		justify-content: flex-end;
- 		align-self: center;
- 		margin-left: 2rem;
- 	}
+ 		/* Media Queries */
+
+ 	@media only screen and (max-width: 1024px) {
+		.bannerbox {
+			margin-top: 5rem;
+			margin-right: 2rem;
+	 		font-size: 1.33rem;
+	 		padding: 0.75rem 4rem;
+	 		line-height: 2.4;
+	 		width: 16.3rem;
+	 	}
+	}
 
  	/* Main Section */
 
