@@ -11,9 +11,10 @@ body {
 }
 
 header .container,
-.about h2 {
+.aboutblock h2 {
  	font-size: 1rem;
  	color: white;
+ 	background-color: cadetblue;
 }
 
 .about h2,
@@ -52,7 +53,6 @@ header {
 	 	display: flex;
 	 	justify-content: space-between;
 	 	align-items: center;
-	 	background-color: cadetblue;
 	 	margin-top: 1rem;
  	}
 	 
@@ -126,6 +126,25 @@ main .container {
  	}
 
  		/* About Blocks */
+
+ 	.about {
+ 		display: flex;
+ 		justify-content: center;
+ 	}
+
+ 	.aboutblock {
+ 		width: 35%;
+ 	}
+
+ 	.initial {
+ 		margin-right: 5%;
+ 	}
+
+ 	.aboutblock h2 {
+ 		padding: 0.5rem 0 0.5rem 1.25rem;
+ 		margin-bottom: 1rem;
+ 		width: 10rem;
+ 	}
 
  	/* Footer */
 
